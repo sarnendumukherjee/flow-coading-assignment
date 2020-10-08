@@ -1,0 +1,24 @@
+{
+  "name": "@flowtraders/coding-challenge-server",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel ./src --out-dir ./dist --extensions '.ts'",
+    "start": "babel-node --extensions '.ts' ./src/main.ts"
+  },
+  "dependencies": {
+    "typescript": "~3.8",
+    "ws": "^7.2.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/node": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-numeric-separator": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/ws": "^7.2.2"
+  }
+}
